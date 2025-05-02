@@ -5,7 +5,7 @@ import Login from './components/auth/Login';
 import Register from './components/auth/Register';
 import Dashboard from './components/game/Dashboard';
 // import XpDisplay from './components/XpDisplay'; 
-import XpDisplay from './components/game/xpdisplay';
+import XpDisplay from './components/game/Xpdisplay';
 
 function App() {
   const { user, loading } = useAuth();
