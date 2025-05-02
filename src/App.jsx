@@ -5,7 +5,7 @@ import Login from './components/auth/Login';
 import Register from './components/auth/Register';
 import Dashboard from './components/game/Dashboard';
 // import XpDisplay from './components/XpDisplay'; 
-import XpDisplay from './components/game/XpDisplay'; // adjust path
+// import XpDisplay from './components/game/XpDisplay'; // adjust path
 function App() {
   const { user, loading } = useAuth();
 
@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <XpDisplay /> {/* ✅ XP counter shown in top-right corner */}
+      {/* <XpDisplay /> ✅ XP counter shown in top-right corner */}
       <main className="main-content">
         <Routes>
           <Route 
